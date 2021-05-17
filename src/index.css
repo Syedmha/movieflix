@@ -104,7 +104,7 @@ a img {
 }
 
 .movie-over {
-  background-color: rgba(22, 22, 22, 0.637);
+  background-color: black;
   color: gray;
   padding: 1rem;
   position: absolute;
