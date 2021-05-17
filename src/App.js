@@ -1,6 +1,7 @@
 //import './App.css';
 import React, { useEffect, useState }  from 'react';
-import Movie from './components/Movie'
+import Movie from './components/Movie';
+import mflogo from './images/mflogo.svg';
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=93f22a4042904762bad8177fa7b12e52&page=1";
 
@@ -45,7 +46,9 @@ const handleonChange = (e) => {
 
   return (
   <>
-  <header> 
+  <header>
+   <a href=" /"><img src={mflogo} />
+   </a>
     <form onSubmit={handleonSubmit}>
       <input 
         className='search'
